@@ -1,0 +1,294 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  font-family: sans-serif;
+
+  background: pink;
+}
+body {
+  margin: 0;
+  background: pink;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: pink;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  background: rgb(225, 122, 139);
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .side {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main {
+    padding: 0.5rem;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(203, 118, 118);
+  background: rgb(237, 120, 139);
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  background: rgb(223, 114, 132);
+  padding-left: 15px 20px;
+}
+
+
+.header-left {
+  display: flex;
+  align-items:center;
+  gap: 15px;
+}
+
+
+.search-input {
+  width: 300px;         
+  padding: 8px 200px;   
+  border: 2px solid yellow;
+  border-radius: 6px;
+  font-size: 14px;
+  display: flex;      
+  margin: 20px auto;  
+  padding-right: 10rem ; 
+  background: rgb(223, 114, 132);
+ 
+}
+
+
+.notification-icon {
+  font-size: 18px;
+color: white;
+display: flex;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: rgb(223, 114, 132);
+
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.side {
+  width: 220px;
+  background: #fedfdf;
+  padding: 4rem;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  padding-inline: 2px;
+}
+
+.side li{
+  color: #1e1d1a;
+  border: 3rem;
+  border-radius: 5rem;
+  background-color: #fedfdf;
+  padding-bottom: 5px;
+}
+.link-item {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.side ul li{
+   padding-bottom: 20px;
+   margin-bottom: 40px;
+   margin-bottom: 10px; 
+   margin-right: 8px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.top input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 0 1rem;
+  flex: 1;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.add {
+  padding: 0.4rem 0.rem;
+  background: #007bff;
+  color: rgb(210, 213, 219);
+  border: none;
+  border-radius: 5px;
+}
+
+
+.main-box > * {
+  margin-bottom: 2rem;
+  background: #fedfdf;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.overview-card, .card, .appointment-card {
+  border: 1px solid #0e0d0d;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+}
+
+.anatomy {
+  display: flex;
+  gap: 2rem;
+}
+
+.anatomy-img {
+  max-width: 700px;
+}
+.anatomy h2{
+  color: #2545a5;
+}
+.anatomy h4{
+  color: #2545a5;
+  right: 50px;
+}
+
+.icon{
+  max-width: 200px;
+}
+
+.labels .label {
+  margin-bottom: 0.5rem;
+}
+
+.label.green { color: green; }
+.label.red { color: red; }
+.label.blue { color: blue; }
+.label.gray { color:rgb(225, 21, 157); }
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.day {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 6px;
+  background: #f1f1f1;
+}
+
+.slot {
+  display: block;
+  font-size: 0.8rem;
+  background: #cce5ff;
+  margin: 0.25rem 0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+.schedule-day {
+  margin-bottom: 1rem;
+}
+
+.schedule-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.3rem 0;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.bars {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  height: 100px;
+  align-items: flex-end;
+}
+
+.bar {
+  width: 20px;
+  background: #007bff;
+  border-radius: 4px 4px 0 0;
+}
